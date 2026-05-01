@@ -21,7 +21,7 @@ The dashboard is designed to answer the following key business questions:
 • How do gender, shipping type, and category influence sales?
 
 ## Dashboard Interaction
--<a href="
+-<a href="https://github.com/RajiaAfrin/Customer_Behavior_Analysis/blob/main/customer_behavior_dashboard.pbix">Dashboard<a/>
 
 ## Process
 The analysis was performed using the following steps:
@@ -34,7 +34,7 @@ The analysis was performed using the following steps:
 • Analyzed results to extract actionable business insights
 
 ## Dashboard
-(Add dashboard screenshot here)
+
 
 ## Key Insights
 • Certain product categories contribute significantly to total revenue
