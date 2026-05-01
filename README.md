@@ -11,7 +11,7 @@ The project follows a complete end-to-end data analytics workflow starting from 
 ## Key Performance Indicators (KPIs) / Business Questions
 The dashboard is designed to answer the following key business questions:
 
-• What is the total number of customers?
+• What is the total number of customers? 
 • What is the total revenue generated?
 • What is the average purchase amount?
 • What is the average customer review rating?
