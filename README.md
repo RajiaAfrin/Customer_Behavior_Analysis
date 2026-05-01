@@ -6,6 +6,7 @@ This project analyzes customer behavior and business performance using Python, S
 The project follows a complete end-to-end data analytics workflow starting from raw data handling to final insights generation and business reporting.
 
 ## Dataset Used
+- <a href="https://github.com/RajiaAfrin/Customer_Behavior_Analysis/blob/main/customer_shopping_behavior.csv">Dataset<a/>
 
 ## Key Performance Indicators (KPIs) / Business Questions
 The dashboard is designed to answer the following key business questions:
