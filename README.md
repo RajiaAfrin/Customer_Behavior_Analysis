@@ -1,127 +1,45 @@
 # Customer_Behavior_Analysis
 Customer Behavior Analysis project built using Python, SQL, and Power BI to analyze customer purchasing trends and business performance. Python handled data cleaning, SQL managed querying and transformation, and Power BI created interactive visuals and KPIs for sales, revenue, subscriptions, and customer insights.
 
-## Overview
+## Project Overview
+This project analyzes customer behavior and business performance using Python, SQL, and Power BI. The goal is to understand customer purchasing patterns, revenue trends, product performance, and subscription behavior by transforming raw data into meaningful business insights. Python was used for data cleaning, preprocessing, and exploratory data analysis, SQL was used for data querying and transformation, and Power BI was used to build an interactive dashboard for visualization and reporting.
+The project follows a complete end-to-end data analytics workflow starting from raw data handling to final insights generation and business reporting.
 
-This project demonstrates a complete end-to-end data analytics workflow using Python, SQL, Power BI, and reporting tools. The goal of the project is to transform raw data into meaningful business insights through data cleaning, exploratory data analysis (EDA), SQL querying, dashboard creation, and professional reporting.
+## Dataset Used
 
-The project covers the full analytics process from loading the dataset in Python to presenting final insights through a Power BI dashboard, written report, and presentation slides created using Gamma.
+## Key Performance Indicators (KPIs) / Business Questions
+The dashboard is designed to answer the following key business questions:
+• What is the total number of customers?
+• What is the total revenue generated?
+• What is the average purchase amount?
+• What is the average customer review rating?
+• Which product categories generate the highest sales and revenue?
+• How does revenue vary across different age groups?
+• How does subscription status affect customer behavior?
+• What are the customer purchasing patterns across different segments?
+• How do gender, shipping type, and category influence sales?
 
-## Dataset
+## Process
+The analysis was performed using the following steps:
+• Imported and explored the dataset using Python
+• Cleaned the dataset by handling missing values, duplicates, and inconsistent formats
+• Performed exploratory data analysis (EDA) to identify patterns and trends
+• Used SQL for data querying and transformation to extract key business insights
+• Created calculated KPIs and summary metrics for analysis
+• Built an interactive Power BI dashboard using charts, KPIs, and slicers
+• Analyzed results to extract actionable business insights
 
-The dataset contains customer and business-related information such as:
+## Dashboard
+(Add dashboard screenshot here)
 
-* Customer details
-* Purchase behavior
-* Product categories
-* Sales and revenue
-* Subscription status
-* Review ratings
-* Shipping preferences
-* Demographic insights
-
-The data was cleaned and prepared before analysis to ensure accuracy and consistency.
-
-## Tools Used
-
-* **Python** – Data loading, cleaning, preprocessing, and EDA
-* **Pandas / NumPy / Matplotlib / Seaborn** – Data analysis and visualization
-* **SQL (PostgreSQL / MySQL / SQL Server)** – Data querying and transformation
-* **Power BI** – Interactive dashboard development
-* **Microsoft Excel** – Initial data review and validation
-* **Gamma** – Presentation (PPT) creation
-* **Microsoft Word / PDF** – Final report documentation
-
-## Project Steps
-
-### 1. Data Loading
-
-The dataset was imported into Python using Pandas for initial analysis and preprocessing.
-
-### 2. Exploratory Data Analysis (EDA)
-
-EDA was performed to understand the dataset structure, identify patterns, detect missing values, and discover business trends.
-
-### 3. Data Cleaning
-
-Data cleaning included:
-
-* Handling missing values
-* Removing duplicates
-* Standardizing column formats
-* Fixing inconsistent values
-* Preparing data for SQL and dashboard reporting
-
-### 4. SQL Analysis
-
-The cleaned dataset was analyzed using SQL queries in PostgreSQL, MySQL, and SQL Server to extract valuable business insights and answer key analytical questions.
-
-### 5. Power BI Dashboard
-
-An interactive dashboard was built in Power BI using KPIs, charts, slicers, and visual reports for better business understanding.
-
-### 6. Final Report and Presentation
-
-A professional project report was created along with presentation slides using Gamma to present findings clearly and effectively.
-
-## Dashboard Highlights
-
-The Power BI dashboard includes:
-
-* Total Customers KPI
-* Average Purchase Amount
-* Average Review Rating
-* Revenue by Product Category
-* Sales by Product Category
-* Customer Subscription Analysis
-* Revenue by Age Group
-* Sales by Age Group
-* Interactive Filters (Gender, Category, Shipping Type, Subscription Status)
-
-## Results
-
-The project helped identify:
-
-* Top-performing product categories
-* Customer purchasing behavior patterns
-* Revenue trends across different age groups
-* Subscription-based customer engagement
-* Customer satisfaction through review analysis
-* Sales performance across multiple segments
-
-These insights support better decision-making in marketing, sales, and customer retention strategies.
-
----
-
-## How to Run
-
-### Python
-
-1. Install required libraries:
-
-   * pandas
-   * numpy
-   * matplotlib
-   * seaborn
-   * sqlalchemy
-
-2. Run the Python notebook or script for:
-
-   * Data loading
-   * EDA
-   * Data cleaning
-
-### SQL
-
-1. Import the cleaned dataset into PostgreSQL, MySQL, or SQL Server
-2. Run the SQL queries provided in the project files
-
-### Power BI
-
-1. Open the `.pbix` file in Power BI Desktop
-2. Refresh the dataset connection
-3. Explore the interactive dashboard
+## Key Insights
+• Certain product categories contribute significantly to total revenue
+• Customer purchasing behavior varies across different age groups
+• Subscribed customers show higher engagement and purchase consistency
+• Revenue distribution is not uniform across all segments
+• Customer satisfaction remains stable based on review ratings
+• Sales performance is influenced by category, age group, and subscription status
 
 ## Conclusion
+The Customer Behavior Analysis Dashboard provides meaningful insights into customer purchasing trends, revenue performance, and business growth opportunities. It helps in understanding customer segments more effectively and supports data-driven decision-making in marketing, sales, and customer retention strategies.
 
-This project demonstrates strong practical skills in data analytics, SQL, business intelligence, and reporting. It shows the ability to work with real-world datasets and convert raw information into actionable insights using industry-standard tools.
