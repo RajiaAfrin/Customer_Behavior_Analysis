@@ -34,6 +34,7 @@ The analysis was performed using the following steps:
 • Analyzed results to extract actionable business insights
 
 ## Dashboard
+<img width="1341" height="722" alt="image" src="https://github.com/user-attachments/assets/6764abbd-1e71-404b-be52-80b8006762f7" />
 
 
 ## Key Insights
