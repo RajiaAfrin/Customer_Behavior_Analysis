@@ -20,6 +20,9 @@ The dashboard is designed to answer the following key business questions:
 • What are the customer purchasing patterns across different segments?
 • How do gender, shipping type, and category influence sales?
 
+## Dashboard Interaction
+-<a href="
+
 ## Process
 The analysis was performed using the following steps:
 • Imported and explored the dataset using Python
