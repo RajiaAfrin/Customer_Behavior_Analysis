@@ -1,52 +1,183 @@
-# Customer_Behavior_Analysis
-Customer Behavior Analysis project built using Python, SQL, and Power BI to analyze customer purchasing trends and business performance. Python handled data cleaning, SQL managed querying and transformation, and Power BI created interactive visuals and KPIs for sales, revenue, subscriptions, and customer insights.
+# Customer Shopping Behavior Analysis
 
-## Project Overview
-This project analyzes customer behavior and business performance using Python, SQL, and Power BI. The goal is to understand customer purchasing patterns, revenue trends, product performance, and subscription behavior by transforming raw data into meaningful business insights. Python was used for data cleaning, preprocessing, and exploratory data analysis, SQL was used for data querying and transformation, and Power BI was used to build an interactive dashboard for visualization and reporting.
-The project follows a complete end-to-end data analytics workflow starting from raw data handling to final insights generation and business reporting.
+## Project Background
+
+Understanding customer purchasing behavior is essential for improving marketing strategies, increasing customer retention, and driving revenue growth. Businesses can gain valuable insights by analyzing customer demographics, purchasing habits, subscription behavior, product preferences, and spending patterns.
+
+This end-to-end analytics project analyzes customer shopping behavior using Python, SQL, and Power BI. The goal is to identify purchasing trends, customer segments, subscription patterns, and revenue drivers to support data-driven business decisions.
 
 ## Dataset Used
 - <a href="https://github.com/RajiaAfrin/Customer_Behavior_Analysis/blob/main/customer_shopping_behavior.csv">Dataset<a/>
 
-## Key Performance Indicators (KPIs) / Business Questions
-The dashboard is designed to answer the following key business questions:
+Insights and recommendations are provided on the following key areas:
 
-1.	What is the total number of customers? 
-2.	What is the total revenue generated?
-3.	What is the average purchase amount?
-4.	What is the average customer review rating?
-5.	Which product categories generate the highest sales and revenue?
-6.	How does revenue vary across different age groups?
-7.	How does subscription status affect customer behavior?
-8.	What are the customer purchasing patterns across different segments?
-9.	How do gender, shipping type, and category influence sales?
+- Customer Demographics Analysis
+- Revenue & Purchase Behavior
+- Subscription Analysis
+- Category Performance
+- Customer Segmentation
+- Shopping Preferences
+
+This project was created using **Python, Jupyter Notebook, SQL, Power BI, and Microsoft Excel**.
+
+## Data Structure & Initial Checks
+
+The dataset contains **3,900 customer purchase records** and includes the following fields:
+
+- Customer ID
+- Age
+- Gender
+- Item Purchased
+- Category
+- Purchase Amount (USD)
+- Location
+- Season
+- Review Rating
+- Subscription Status
+- Shipping Type
+- Discount Applied
+- Promo Code Used
+- Previous Purchases
+- Payment Method
+- Frequency of Purchases
+
+### Initial Data Checks
+
+The project began with:
+
+- Data cleaning and validation
+- Customer demographic analysis
+- Revenue analysis
+- Product category analysis
+- Subscription behavior analysis
+- Discount and promotion analysis
+- Customer segmentation
+- SQL-based business analysis
+- Dashboard development
 
 ## Dashboard Interaction
 -<a href="https://github.com/RajiaAfrin/Customer_Behavior_Analysis/blob/main/customer_behavior_dashboard.pbix">Dashboard<a/>
 
-## Process
-The analysis was performed using the following steps:
+## Executive Summary
 
-1.	Imported and explored the dataset using Python
-2.	Cleaned the dataset by handling missing values, duplicates, and inconsistent formats
-3.	Performed exploratory data analysis (EDA) to identify patterns and trends
-4.	Used SQL for data querying and transformation to extract key business insights
-5.	Created calculated KPIs and summary metrics for analysis
-6.	Built an interactive Power BI dashboard using charts, KPIs, and slicers
-7.	Analyzed results to extract actionable business insights
+### Overview of Findings
+
+The analysis examined **3,900 customer transactions** and generated total revenue of approximately **$233,081**, with an average purchase amount of **$59.84** and an average review rating of **3.77**.
+
+Customer subscription analysis revealed that **73.06%** of customers are non-subscribers, while **26.94%** maintain active subscriptions. Revenue and sales activity were strongest among **Young Adult** and **Adult** customer groups, highlighting the importance of these segments to overall business performance.
+
+The dashboard also revealed meaningful differences in customer behavior across product categories, shipping preferences, and subscription status.
+
+## Insights Deep Dive
+
+## 1. Customer Performance Overview
+
+The dashboard highlights the following key business metrics:
+
+- **Number of Customers:** 1.24K
+- **Average Purchase Amount:** $59.84
+- **Average Review Rating:** 3.77
+
+These metrics provide an overall view of customer engagement, spending behavior, and satisfaction.
+
+## 2. Subscription Analysis
+
+Customer subscription behavior shows a significant difference between subscribers and non-subscribers.
+
+| Subscription Status | Percentage |
+|--------------------|-----------:|
+| Non-Subscribers | 73.06% |
+| Subscribers | 26.94% |
+
+The majority of customers purchase without an active subscription, indicating opportunities to expand subscription-based offerings.
+
+## 3. Customer Demographic Analysis
+
+Customer behavior was analyzed across multiple age groups:
+
+- Young Adult
+- Adult
+- Middle-aged
+- Senior
+
+The dashboard indicates that **Young Adults** and **Adults** contribute the largest share of revenue and sales activity.
+
+These groups represent the most valuable customer segments within the dataset.
+
+## 4. Category Performance Analysis
+
+The dashboard evaluates:
+
+- Revenue by Category
+- Sales by Category
+
+Category-level analysis helps identify the products and categories that contribute the most to overall business performance.
+
+## 5. Customer Segmentation Analysis
+
+Customer purchasing behavior was segmented using:
+
+- Subscription Status
+- Gender
+- Age Group
+- Shopping Preferences
+
+This segmentation provides a deeper understanding of customer behavior and purchasing patterns.
+
+## 6. Shopping Behavior Analysis
+
+Customer spending patterns were analyzed using:
+
+- Shipping Type
+- Discounts Applied
+- Promo Code Usage
+- Purchase Frequency
+- Previous Purchases
+
+These factors help explain differences in customer purchasing decisions and overall revenue generation.
 
 ## Dashboard
 <img width="1341" height="722" alt="image" src="https://github.com/user-attachments/assets/6764abbd-1e71-404b-be52-80b8006762f7" />
 
+## Recommendations
 
-## Key Insights
-1.	Certain product categories contribute significantly to total revenue
-2.	Customer purchasing behavior varies across different age groups
-3.	Subscribed customers show higher engagement and purchase consistency
-4.	Revenue distribution is not uniform across all segments
-5.	Customer satisfaction remains stable based on review ratings
-6.	Sales performance is influenced by category, age group, and subscription status
+Based on the findings, I would recommend the following:
 
-## Conclusion
-The Customer Behavior Analysis Dashboard provides meaningful insights into customer purchasing trends, revenue performance, and business growth opportunities. It helps in understanding customer segments more effectively and supports data-driven decision-making in marketing, sales, and customer retention strategies.
+### 1. Expand Subscription Adoption
 
+Since most customers are non-subscribers, targeted campaigns could encourage more customers to join subscription programs.
+
+### 2. Focus on High-Value Customer Segments
+
+Young Adult and Adult customers generate the highest levels of activity and should remain a primary focus for marketing efforts.
+
+### 3. Optimize Product Categories
+
+High-performing product categories should receive additional promotional and inventory support to maximize revenue opportunities.
+
+### 4. Improve Customer Retention Strategies
+
+Purchase frequency and previous purchase behavior can be used to identify loyal customers and improve retention initiatives.
+
+### 5. Enhance Personalized Marketing
+
+Customer demographic and behavioral segmentation can support more targeted promotional campaigns and personalized recommendations.
+
+## Assumptions and Caveats
+
+- Revenue and spending figures are based on the transactions available in the dataset.
+- Customer behavior patterns reflect historical purchase activity and may not represent future trends.
+- Subscription analysis is limited to the available subscription status information.
+- Category performance depends on the products included in the dataset.
+- Results may vary if additional customer records become available.
+
+## Tools Used
+
+- Python
+- Jupyter Notebook
+- SQL
+- Power BI
+- Microsoft Excel
+- Data Cleaning
+- Data Analysis
+- Data Visualization
